@@ -3,7 +3,6 @@ package me.DevJochem.Hub.listeners;
 import java.util.Arrays;
 
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -35,6 +34,15 @@ public class spawnitems implements Listener {
 		servers.setItemMeta(serversMeta);
 		
 		p.getInventory().setItem(4, servers);
+		
+		
+		ItemStack Hider = new ItemStack(347);
+		ItemMeta hider = Hider.getItemMeta();
+		serversMeta.setDisplayName(ChatColor.RED + "" + ChatColor.BOLD + "Player Hide");
+		serversMeta.setLore(Arrays.asList(ChatColor.WHITE + "Maak alles spelers onzichtbaar"));
+		servers.setItemMeta(serversMeta);
+		
+		p.getInventory().setItem(1, servers);
 	}
 	
 }

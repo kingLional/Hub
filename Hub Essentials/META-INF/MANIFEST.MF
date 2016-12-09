@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hub_Essentials
+Bundle-SymbolicName: Hub_Essentials
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Hub Essentials.jar,
+ Jochem Benning/Downloads/spigot-1.8.jar
+Export-Package: me.DevJochem.Hub,
+ me.DevJochem.Hub.commands,
+ me.DevJochem.Hub.listeners
