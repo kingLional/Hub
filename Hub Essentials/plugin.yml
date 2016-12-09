@@ -1,0 +1,7 @@
+main: me.DevJochem.Hub.Main
+version: 1
+name: CrixionHub
+description: HubPlugin
+commands:
+  ef:
+    description: test
